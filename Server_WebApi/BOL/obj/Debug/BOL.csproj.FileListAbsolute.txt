@@ -1,6 +1,0 @@
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\bin\Debug\BOL.dll
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\bin\Debug\BOL.pdb
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.dll
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.pdb
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
