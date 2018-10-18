@@ -12,7 +12,7 @@ namespace BLL
         //curl -X GET -v http://localhost:60828/api/User
         public static List<Worker> GetAllWorkers()
         {
-            string query = $"SELECT * FROM worker";
+            string query = $"SELECT * FROM projects_managment.worker";
 
             Func<MySqlDataReader, List<Worker>> func = (reader) =>
             {

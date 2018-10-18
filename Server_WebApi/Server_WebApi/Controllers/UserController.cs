@@ -17,10 +17,16 @@ namespace Server_WebApi.Controllers
         [Route("api/User/Login")]
         public HttpResponseMessage Login([FromBody]Login userLogin)
         {
-            return new HttpResponseMessage(HttpStatusCode.OK)
+            Worker worker;
+            try
             {
-                Content = new ObjectContent<List<Worker>>(LogicManager.GetAllWorkers(), new JsonMediaTypeFormatter())
-            };
+                worker = LogicUser.Login(userLogin.EMail, userLogin.Password);
+            }
+            catch (Exception e)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, e);
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, worker);
         }
 
 
