@@ -19,8 +19,9 @@ namespace BOL.Validations
             PropertyInfo property = type.GetProperty("StartDate");
             object propertyValue = property.GetValue(instance);
             DateTime.TryParse(propertyValue.ToString(), out DateTime startDate);
-            string passwordSHA = JsonConvert.SerializeObject(value);
-            return ((Regex.Matches(passwordSHA, @"[0-9A-Z]").Count)==0) ? null :
+
+            //password must be with 64 chars, pattern is: [0-9A-Z]
+            return ((Regex.Matches(JsonConvert.SerializeObject(value), @"[0-9A-Z]").Count)==0) ? null :
                 new ValidationResult("Paasword is not valid");
         }
     }
