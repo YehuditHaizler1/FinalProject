@@ -12,8 +12,10 @@ namespace Server_WebApi.Controllers
 {
     public class UserController : ApiController
     {
-        // GET: api/Users
-        [HttpGet]
+        //curl -v -X POST -H "Content-type: application/json" -d "{\"Password\":\"12345\",\"EMail\":\"esty@gmail.com\"}"  http://localhost:60828/api/Login
+
+        // POST: api/Users
+        [HttpPost]
         [Route("api/User/Login")]
         public HttpResponseMessage Login([FromBody]Login userLogin)
         {
@@ -33,7 +35,7 @@ namespace Server_WebApi.Controllers
         // GET: api/Users
         [HttpGet]
         [Route("api/User/GetAllWorkers")]
-        public HttpResponseMessage Get()
+        public HttpResponseMessage GetAllWorkers()
         {
             return new HttpResponseMessage(HttpStatusCode.OK)
             {
@@ -50,7 +52,7 @@ namespace Server_WebApi.Controllers
         //    };
         //}
 
-        //POST: api/Users
+        [HttpPost]
         public HttpResponseMessage Post([FromBody]Worker value)
         {
             if (ModelState.IsValid)

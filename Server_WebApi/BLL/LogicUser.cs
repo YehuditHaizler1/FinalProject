@@ -3,17 +3,16 @@ using DAL;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BLL
 {
     public class LogicUser
     {
+        //curl -X GET -v http://localhost:60828/api/User
+
         //Login - get email and password, check if the user exists.
         //If exists - return the user,
-        //Else return match error message.
+        //Else return null.
         public static Worker Login(string eMail, string password)
         {
             string query = $"SELECT* FROM projects_managment.worker WHERE eMail = {eMail} AND password = {password}";
