@@ -11,6 +11,7 @@ namespace BLL
     {
         public static bool AddUser(Worker worker)
         {
+<<<<<<< HEAD
             string query = $"INSERT INTO worker (userName, password, firstName, lastName, eMail, phone, statusId, managerId, totalHours)" +
                 $" VALUES ('{worker.UserName}','{worker.Password}','{worker.FirstName}','{worker.LastName}','{worker.EMail}','{worker.Phone}',{worker.StatusId},'{worker.ManagerId}','{worker.TotalHours}')";
             return DBAccess.RunNonQuery(query) == 1;
@@ -19,6 +20,9 @@ namespace BLL
         //public static List<Worker> GetAllWorkers()
         //{
         //    string query = $"SELECT * FROM worker";
+=======
+            string query = $"SELECT * FROM projects_managment.worker";
+>>>>>>> a24f3a4e707cd2016379d5f450c51e0fcc193a47
 
         //    Func<MySqlDataReader, List<Worker>> func = (reader) =>
         //    {

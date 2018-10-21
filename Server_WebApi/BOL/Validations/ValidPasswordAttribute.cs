@@ -14,13 +14,14 @@ namespace BOL.Validations
     {
         override protected ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            object instance = validationContext.ObjectInstance;
-            Type type = instance.GetType();
-            PropertyInfo property = type.GetProperty("StartDate");
-            object propertyValue = property.GetValue(instance);
-            DateTime.TryParse(propertyValue.ToString(), out DateTime startDate);
-            string passwordSHA = JsonConvert.SerializeObject(value);
-            return ((Regex.Matches(passwordSHA, @"[0-9A-Z]").Count)==0) ? null :
+            //object instance = validationContext.ObjectInstance;
+            //Type type = instance.GetType();
+            //PropertyInfo property = type.GetProperty("StartDate");
+            //object propertyValue = property.GetValue(instance);
+            //DateTime.TryParse(propertyValue.ToString(), out DateTime startDate);
+
+            //password must be with 64 chars, pattern is: [0-9A-Z]
+            return ((Regex.Matches(JsonConvert.SerializeObject(value), @"[0-9A-Z]").Count)==0) ? null :
                 new ValidationResult("Paasword is not valid");
         }
     }

@@ -20,7 +20,8 @@ namespace BOL
         //DataType is password
         //5 - 8 chars
         [Required]
-        [Range(64,64)]
+        [Range(64, 64)]
+        [ValidPassword]
         public string Password { get; set; }
 
         //2 - 10 chars

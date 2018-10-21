@@ -12,22 +12,30 @@ namespace Server_WebApi.Controllers
 {
     public class UserController : ApiController
     {
-        // GET: api/Users
-        [HttpGet]
+        //curl -v -X POST -H "Content-type: application/json" -d "{\"Password\":\"12345\",\"EMail\":\"esty@gmail.com\"}"  http://localhost:60828/api/Login
+
+        // POST: api/Users
+        [HttpPost]
         [Route("api/User/Login")]
         public HttpResponseMessage Login([FromBody]Login userLogin)
         {
-            return new HttpResponseMessage(HttpStatusCode.OK)
+            Worker worker;
+            try
             {
-                Content = new ObjectContent<List<Worker>>(LogicManager.GetAllWorkers(), new JsonMediaTypeFormatter())
-            };
+                worker = LogicUser.Login(userLogin.EMail, userLogin.Password);
+            }
+            catch (Exception e)
+            {
+                return Request.CreateErrorResponse(HttpStatusCode.BadRequest, e);
+            }
+            return Request.CreateResponse(HttpStatusCode.OK, worker);
         }
 
 
         // GET: api/Users
         [HttpGet]
         [Route("api/User/GetAllWorkers")]
-        public HttpResponseMessage Get()
+        public HttpResponseMessage GetAllWorkers()
         {
             return new HttpResponseMessage(HttpStatusCode.OK)
             {
@@ -44,7 +52,7 @@ namespace Server_WebApi.Controllers
         //    };
         //}
 
-        //POST: api/Users
+        [HttpPost]
         public HttpResponseMessage Post([FromBody]Worker value)
         {
             if (ModelState.IsValid)
