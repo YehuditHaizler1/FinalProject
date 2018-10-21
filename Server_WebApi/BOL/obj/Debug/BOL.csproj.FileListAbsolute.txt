@@ -4,3 +4,11 @@ C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\o
 C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.dll
 C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.pdb
 C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BOL\bin\Debug\BOL.dll
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BOL\bin\Debug\BOL.pdb
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BOL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.csproj.CopyComplete
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.dll
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BOL\obj\Debug\BOL.pdb

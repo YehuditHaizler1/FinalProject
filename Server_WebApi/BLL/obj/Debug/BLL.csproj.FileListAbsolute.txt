@@ -11,3 +11,16 @@ C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BLL\b
 C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BLL\obj\Debug\BLL.dll
 C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\BLL\obj\Debug\BLL.pdb
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\bin\Debug\BLL.dll
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\bin\Debug\BLL.pdb
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\bin\Debug\BOL.dll
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\bin\Debug\DAL.dll
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\bin\Debug\BOL.pdb
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\bin\Debug\DAL.pdb
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\bin\Debug\MySql.Data.xml
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\obj\Debug\BLL.dll
+C:\Users\seldat\Documents\GitHub\FinalProject\Server_WebApi\BLL\obj\Debug\BLL.pdb

@@ -15,7 +15,7 @@ namespace BOL.Validations
             try
             {
                 //Take userId and email of the user parameter
-                int userId = (validationContext.ObjectInstance as Worker).Id;
+                int userId = (validationContext.ObjectInstance as User).Id;
                 string email = value.ToString();
 
                 //Invoke method 'getAllUsers' from 'UserService' in 'BLL project' by reflection (not by adding reference!)
@@ -30,7 +30,7 @@ namespace BOL.Validations
                 MethodInfo getAllUsersMethod = userServiceType.GetMethods().First(m => m.Name.Equals("GetAllUsers"));
 
                 //4. Invoke this method
-                List<Worker> users = getAllUsersMethod.Invoke(Activator.CreateInstance(userServiceType), new object[] { }) as List<Worker>;
+                List<User> users = getAllUsersMethod.Invoke(Activator.CreateInstance(userServiceType), new object[] { }) as List<User>;
 
                 //The result of this method is list of users
 
