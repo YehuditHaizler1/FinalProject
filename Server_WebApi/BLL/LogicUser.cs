@@ -15,7 +15,7 @@ namespace BLL
         //Else return null.
         public static Worker Login(string eMail, string password)
         {
-            string query = $"SELECT* FROM projects_managment.worker WHERE eMail = {eMail} AND password = {password}";
+            string query = $"SELECT * FROM projects_managment.worker WHERE eMail = '{eMail}' AND password = '{password}' ";
 
             Func<MySqlDataReader, List<Worker>> func = (reader) =>
             {

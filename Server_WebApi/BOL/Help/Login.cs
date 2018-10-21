@@ -19,7 +19,7 @@ namespace BOL.Help
         //64 chars
         //valid password
         [Required]
-        [Range(64, 64)]
+        [MinLength(64),MaxLength(64)]
         [ValidPassword]
         public string Password { get; set; }
 
