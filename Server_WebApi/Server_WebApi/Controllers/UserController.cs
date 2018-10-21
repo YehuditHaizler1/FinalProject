@@ -12,7 +12,7 @@ namespace Server_WebApi.Controllers
 {
     public class UserController : ApiController
     {
-        //curl -v -X POST -H "Content-type: application/json" -d "{\"Password\":\"12345\",\"EMail\":\"esty@gmail.com\"}"  http://localhost:60828/api/Login
+        //curl -v -X POST -H "Content-type: application/json" -d "{\"Password\":\"12345\",\"EMail\":\"esty@gmail.com\"}"  http://localhost:60828/api/User/Login
 
         // POST: api/Users
         [HttpPost]
