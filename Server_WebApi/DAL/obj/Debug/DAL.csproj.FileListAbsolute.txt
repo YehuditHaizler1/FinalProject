@@ -1,9 +1,0 @@
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\DAL\bin\Debug\DAL.dll
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\DAL\bin\Debug\DAL.pdb
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\DAL\bin\Debug\MySql.Data.dll
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\DAL\bin\Debug\MySql.Data.xml
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\DAL\obj\Debug\DAL.csproj.CopyComplete
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\DAL\obj\Debug\DAL.dll
-C:\Users\Libi\Desktop\יהודית הייזלר\FinalProject\Server_WebApi\DAL\obj\Debug\DAL.pdb
